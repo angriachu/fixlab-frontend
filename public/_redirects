@@ -1,2 +1,6 @@
-/api/*  https://YOUR-BACKEND-DOMAIN/:splat  200
-/*      /index.html                          200
+# proxy to your API (https if you have a cert; http if not)
+# Example if your backend lives at https://api.fixlab.in:
+# /api/*  https://api.fixlab.in/:splat  200
+
+/api/*  https://YOUR-PUBLIC-API-HERE/:splat  200
+/*      /index.html
