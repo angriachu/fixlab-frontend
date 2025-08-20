@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .vite/
+dev-dist/
 .DS_Store
 .vscode/
 .env*
